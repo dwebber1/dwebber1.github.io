@@ -1,0 +1,147 @@
+<!DOCTYPE html><html>
+<head>
+    <!-- dev stylesheet
+    <link rel="stylesheet" href="style.css"/> -->
+    <link rel="stylesheet" href="style.min.css"/>
+    <script src="js/scrollmagic/minified/ScrollMagic.min.js"></script>
+    <script src="js/greensock/TweenMax.min.js"></script>
+    <script src="js/scrollmagic/minified/plugins/animation.gsap.min.js"></script>
+</head>
+<body><div id="scrollContainer">
+
+    <div class="panel" title="home">
+        <div style="padding: 250px 0 0 20px;">
+            <p style="padding-bottom:40px;">Hi, I'm</p>
+
+            <div id="titleDiv" style="margin: 30px 0 10px 0; position:relative;">
+                <h1 id="titleC" style="font-size: 100pt; display: inline;">D</h1>
+                <h1 id="titleC" style="font-size: 100pt; display: inline;">A</h1>
+                <h1 id="titleC" style="font-size: 100pt; display: inline;">N</h1>
+                <h1 id="titleC" style="font-size: 100pt; display: inline;">I</h1>
+                <h1 id="titleC" style="font-size: 100pt; display: inline;">E</h1>
+                <h1 id="titleC" style="font-size: 100pt; display: inline;">L</h1>
+            
+                
+            </div>
+
+            <p id="introText">
+                I am a 19 year old electrical engineering student persuing interships and Co-Ops. Although being only a sopohmore I have gained real world research experince and 
+                experince through the ever increasing amount of personal projects.  However, the process of learning is never complete.
+            </p>
+        </div>
+    </div>
+
+    <div class="centric panel" title="school" style="">
+        <div class="centertext">
+            <h1 id="scu">Santa Clara University</h1>
+            <h1 id="class">Class of 2019 (expected)</h1>
+            <h1 id="bs">B.S. Electrical Engineering</h1>
+        </div>
+    </div>
+
+    <div class="navbar panel briefme" id="exp_panel" title="exp">
+        <div class="centertext" style="margin-top:100px;">
+            <img id="exp_img" src="images/briefme_titleimg.png" style="max-width:300px; max-height:200px"></img>
+            <h1 id="exp_date" class="subtitle"></h1>
+            <p id="exp_text" style="padding-bottom:10px;"></p>
+            <h1 id="exp_skill1" class="subtitle"></h1>
+            <h1 id="exp_skill2" class="subtitle"></h1>
+        </div>
+        <div class="logoBar">
+            <a href="javascript:expLogoBar.logoClick(0);"><img class="active logo"
+                id="bmlogo" src="images/briefmewhite_small.png"></img></a>
+            <a href="javascript:expLogoBar.logoClick(1);"><img class="inactive logo"
+                id="mslogo" src="images/ms_white_small.png"></img></a>
+            <a href="javascript:expLogoBar.logoClick(2);"><img class="inactive logo"
+                id="antlogo" src="images/antengo_small_white.png"></img></a>
+        </div>
+    </div>
+
+    <div class="navbar panel sns" id="proj_panel" title="proj">
+        <div class="centertext" style="margin-top:100px;">
+            <h1 id="proj_title" src="" style="font-size:35pt; padding-bottom:20px;"></h1>
+            <h1 id="proj_date" class="subtitle"></h1>
+            <h1 id="proj_award" class="subtitle"></h1>
+            <p id="proj_text" style="padding-bottom:10px;"></p>
+            <h1 id="proj_skill1" class="subtitle"></h1>
+            <h1 id="proj_skill2" class="subtitle"></h1>
+
+        </div>
+        <div id="snsvideo" class="video0 centertext">
+            <p style="padding-bottom:20px">Short Video About the eMIXER</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ekRnXvnz-II" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="logoBar">
+            <a href="javascript:projLogoBar.logoClick(0);"><img class="active logo"
+                id="snslogo" src="images/snslogo.png"></img></a>
+            <a href="javascript:projLogoBar.logoClick(1);"><img class="inactive logo"
+               
+               
+                
+                id="overdrivelogo" src="images/heart_white.png"></img></a>
+        </div>
+    </div>
+
+    <div class="centric panel snow" id="intr_panel" title="intr">
+        <div style="text-align:left; align-self:center;">
+            <h1 id="like_snow" style="display:inline; visibility:visible;">I like to </h1>
+            <a href="javascript:intrCont.intrClick(0)"><h1 style="display:inline;">Go Snowboarding</h1></a>
+            <h1></h1>
+            <h1 id="like_hike" style="display:inline; visibility:hidden;">I like to </h1>
+            <a href="javascript:intrCont.intrClick(1)"><h1 style="display:inline;">Go Hiking</h1></a>
+            <h1></h1>
+            <h1 id="like_volley" style="display:inline; visibility:hidden;">I like to </h1>
+            <a href="javascript:intrCont.intrClick(2)"><h1 style="display:inline;">Play Volleyball</h1></a>
+            <h1></h1>
+            <h1 id="like_games" style="display:inline; visibility:hidden;">I like to </h1>
+            <a href="javascript:intrCont.intrClick(3)"><h1 style="display:inline;">Play Videogames</h1></a>
+            <h1></h1>
+            <h1 id="like_cook" style="display:inline; visibility:hidden;">I like to </h1>
+            <a href="javascript:intrCont.intrClick(4)"><h1 style="display:inline;">Cook</h1></a>
+            <h1></h1>
+            <h1 id="like_eat" style="display:inline; visibility:hidden;">I like to </h1>
+            <a href="javascript:intrCont.intrClick(5)"><h1 style="display:inline;">Eat</h1></a>
+        </div>
+    </div>
+
+    <div class="panel contact">
+        <h1 style="font-size:40pt; padding: 150px 0 0 150px;">Lets Chat...</h1>
+        <div class="centertext" style="padding-top:200px;">
+            <a class="contacticon" href="mailto:chetjlemon@gmail.com?Subject=I%20made%20it%20to%20the%20bottom%20of%20your%20site"
+                target="_blank"><img src="images/mailicon.png" style="width:50px;"></img></a>
+            <a class="contacticon" href="https://www.facebook.com/chetlemon"
+                target="_blank"><img src="images/fb.png" style="width:50px;"></img></a>
+            <a class="contacticon" href="https://www.instagram.com/artificiallemonflavoring/"
+                target="_blank"><img src="images/igicon.png" style="width:50px;"></img></a>
+            <a class="contacticon" href="https://www.linkedin.com/in/chetjlemon"
+                target="_blank"><img src="images/linkedinicon.png" style="width:50px;"></img></a>
+            <a class="contacticon" href="https://github.com/clemon"
+                target="_blank"><img src="images/githubicon.png" style="width:50px;"></img></a>
+            <a class="contacticon" href="http://devpost.com/clemon"
+                target="_blank"><img src="images/devposticon.png" style="width:50px;"></img></a>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        var controller = new ScrollMagic.Controller({container: "#scrollContainer"});
+    </script>
+    <script src="js/myshit.together.inabox.js"></script>
+
+    <!-- dev files -->
+    <!-- <script src="js/imagecache.js"></script>
+    <script src="js/logobar.js"></script>
+    <script src="js/animate_home.js"></script>
+    <script src="js/animate_exp.js"></script>
+    <script src="js/animate_projs.js"></script>
+    <script src="js/animate_intr.js"></script> -->
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-48484729-3', 'auto');
+        ga('send', 'pageview');
+    </script>
+</div></body>
+</html>
