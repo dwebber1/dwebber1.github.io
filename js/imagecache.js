@@ -20,6 +20,7 @@ function preloadImages(array) {
 
 console.log("loading images");
 preloadImages(["images/briefme_titleimg.png",
+                "image/apple_park.jpg",
                 "images/microsoft_titleimg.png",
                 "images/antengo_titleimg.png",
                 "images/cook.jpg",

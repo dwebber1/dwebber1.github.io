@@ -15,7 +15,7 @@ function LogoBar(e, t, s, n, i, o, a, r) {
 function IntrController(e, t) {
     this.interests = e, this.hasVid = t, this.state = 0
 }
-console.log("loading images"), preloadImages(["images/briefme_titleimg.png", "images/microsoft_titleimg.png", "images/antengo_titleimg.png", "images/cook.jpg", "images/door.jpg", "images/eat.jpg", "images/geisel.jpg", "images/glass.jpg", "images/games.jpg", "images/overdrive.jpg", "images/pops.jpg", "images/rockies.jpg", "images/SD.jpg", "images/sdhacks.jpg", "images/stanford.jpg", "images/tentfeet.jpg", "images/usc.jpg", "images/vb.jpg", "images/snow.jpg", "images/hike.jpg", "images/devpostlogo.png"]), console.log("done loading images"), LogoBar.prototype.logoClick = function(e) {
+console.log("loading images"), preloadImages([ "images/briefme_titleimg.png", "images/microsoft_titleimg.png", "images/antengo_titleimg.png", "images/cook.jpg", "images/door.jpg", "images/eat.jpg", "images/geisel.jpg", "images/glass.jpg", "images/games.jpg", "images/overdrive.jpg", "images/pops.jpg", "images/rockies.jpg", "images/SD.jpg", "images/sdhacks.jpg","images/apple_park.jpg", "images/stanford.jpg", "images/tentfeet.jpg", "images/usc.jpg", "images/vb.jpg", "images/snow.jpg", "images/hike.jpg", "images/devpostlogo.png"]), console.log("done loading images"), LogoBar.prototype.logoClick = function(e) {
     if (this.state != e) {
         TweenMax.to(this.ids[e], .5, {
             width: "90px",
@@ -106,11 +106,12 @@ new ScrollMagic.Scene({
     duration: 50,
     offset: 757
 }).setTween(c_shrink).addTo(controller);
-var idsz = ["#bmlogo", "#mslogo", "#antlogo"],
-    classesz = ["briefme", "microsoft", "antengo"],
-    textz = ['Conducted research relating to the design of a software defined radio based reciver attached to a quadcopter to track animals tagged with radio collars. Published my work with my PI\'s to an IEEE confrence on communication.', "Worked in the chemistry lab working on the analytical equipment. Built up a prep HPLC and designed a workflow for efficient solvent use", "Worked on building a course about Arduino, I focused on GPS related topics and data streams."],
-    datesz = ["June 2016 - August 2016", "November 2013 - September 2015", "June 2015 - Sepetember 2015"],
+var idsz = ["#aplogo","#bmlogo", "#mslogo", "#antlogo"],
+    classesz = ["apple","briefme", "microsoft", "antengo"],
+    textz = ['Currently working as Hardware Engineering Intern','Conducted research relating to the design of a software defined radio based reciver attached to a quadcopter to track animals tagged with radio collars. Published my work with my PI\'s to an IEEE confrence on communication.', "Worked in the chemistry lab working on the analytical equipment. Built up a prep HPLC and designed a workflow for efficient solvent use", "Worked on building a course about Arduino, I focused on GPS related topics and data streams."],
+    datesz = ["January 2017 - Present", "June 2016 - August 2016", "November 2013 - September 2015", "June 2015 - Sepetember 2015"],
     skillsz = [
+         ["Hardware Architecture&nbsp;&nbsp;&nbsp;&nbsp;System Validation&nbsp;&nbsp;&nbsp;&nbsp;PCB Bring Up", "Microcontroller Firmware"],
         ["GNU Radio&nbsp;&nbsp;&nbsp;&nbsp;Antenna Design&nbsp;&nbsp;&nbsp;&nbsp;SDR", " RF System Design"],
         ["HPLC&nbsp;&nbsp;&nbsp;&nbsp;LCMS&nbsp;&nbsp;&nbsp;&nbsp;PHP",""],
         ["C&nbsp;&nbsp;&nbsp;&nbsp;Python", "&nbsp;&nbsp;&nbsp;&nbsp;Soldering "]

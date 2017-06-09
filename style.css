@@ -98,6 +98,17 @@ div[title="school"] {
     background-size: cover;
 }
 
+.apple[title="exp"] {
+    /* tint */
+    background: linear-gradient(
+      rgba(40, 40, 40, .70),
+      rgba(40, 40, 40, .70)
+    ),
+    url(images/apple_park.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .microsoft[title="exp"] {
     /* tint */
     background: linear-gradient(
@@ -109,6 +120,7 @@ div[title="school"] {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 
 .antengo[title="exp"] {
     /* tint */
