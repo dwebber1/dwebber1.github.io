@@ -111,7 +111,7 @@ var idsz = ["#aplogo","#bmlogo", "#mslogo", "#antlogo"],
     textz = ['Currently working as Hardware Engineering Intern','Conducted research relating to the design of a software defined radio based reciver attached to a quadcopter to track animals tagged with radio collars. Published my work with my PI\'s to an IEEE confrence on communication.', "Worked in the chemistry lab working on the analytical equipment. Built up a prep HPLC and designed a workflow for efficient solvent use", "Worked on building a course about Arduino, I focused on GPS related topics and data streams."],
     datesz = ["January 2017 - Present", "June 2016 - August 2016", "November 2013 - September 2015", "June 2015 - Sepetember 2015"],
     skillsz = [
-         ["Hardware Architecture&nbsp;&nbsp;&nbsp;&nbsp;System Validation&nbsp;&nbsp;&nbsp;&nbsp;PCB Bring Up", "Microcontroller Firmware"],
+         ["Hardware Architecture&nbsp;&nbsp;System Validation&nbsp;&nbsp;","PCB Bring Up&nbsp;&nbsp;schematic Capture", "Microcontroller Firmware&nbsp;Design for Manufacturing"],
         ["GNU Radio&nbsp;&nbsp;&nbsp;&nbsp;Antenna Design&nbsp;&nbsp;&nbsp;&nbsp;SDR", " RF System Design"],
         ["HPLC&nbsp;&nbsp;&nbsp;&nbsp;LCMS&nbsp;&nbsp;&nbsp;&nbsp;PHP",""],
         ["C&nbsp;&nbsp;&nbsp;&nbsp;Python", "&nbsp;&nbsp;&nbsp;&nbsp;Soldering "]
