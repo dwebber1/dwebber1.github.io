@@ -111,7 +111,7 @@ var idsz = ["#aplogo","#aplogo2","#aplogo3"],
     textz = ['System Hardware Engineer for Home HW','Intern on the Apple TV System HW team. Design and archtiecture contributions to the second generation Apple TV 4k', 'Intern on the Apple TV System HW team. Designed hardware for a mass production factory test station. Contributions to the first generation Apple TV 4k'],
     datesz = ["September 2019 - Today", "April 2018 - September 2018", "January 2017 - September 2017"],
     skillsz = [
-         ["Hardware Architecture&nbsp;&nbsp;System Integration&nbsp;&nbsp;","Signal Integrity&nbsp;&nbsp;Schematic Capture"],
+         ["Hardware Architecture&nbsp;&nbsp;System Integration&nbsp;&nbsp;","Signal Integrity&nbsp;&nbsp;Test Automation"],
          ["Hardware Architecture&nbsp;&nbsp;System Integration&nbsp;&nbsp;","Signal Integrity Simulation &nbsp;&nbsp;Schematic Capture"],
          ["Hardware Architecture&nbsp;&nbsp;System Integration&nbsp;&nbsp;","Interoperability testing&nbsp;&nbsp;Factory Test Definition"],
 
