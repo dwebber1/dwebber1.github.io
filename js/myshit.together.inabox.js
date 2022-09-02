@@ -108,18 +108,18 @@ new ScrollMagic.Scene({
 }).setTween(c_shrink).addTo(controller);
 var idsz = ["#aplogo","#aplogo2","#aplogo3"],
     classesz = ["apple","apple2","apple3"],
-    textz = ['Currently working as System Hardware Engineer for Home HW','Intern on the Apple TV System HW team. Design and archtiecture contributions to the second generation Apple TV 4k', 'Intern on the Apple TV System HW team. Designed hardware for a mass production factory test station. Contributions to the first generation Apple TV 4k'],
+    textz = ['System Hardware Engineer for Home HW','Intern on the Apple TV System HW team. Design and archtiecture contributions to the second generation Apple TV 4k', 'Intern on the Apple TV System HW team. Designed hardware for a mass production factory test station. Contributions to the first generation Apple TV 4k'],
     datesz = ["September 2019 - Today", "April 2018 - September 2018", "January 2017 - September 2017"],
     skillsz = [
          ["Hardware Architecture&nbsp;&nbsp;System Integration&nbsp;&nbsp;","Signal Integrity&nbsp;&nbsp;Schematic Capture"],
-         ["Hardware Architecture&nbsp;&nbsp;System Integration&nbsp;&nbsp;","Signal Integrity Simualtion &nbsp;&nbsp;Schematic Capture"],
+         ["Hardware Architecture&nbsp;&nbsp;System Integration&nbsp;&nbsp;","Signal Integrity Simulation &nbsp;&nbsp;Schematic Capture"],
          ["Hardware Architecture&nbsp;&nbsp;System Integration&nbsp;&nbsp;","Interoperability testing&nbsp;&nbsp;Factory Test Definition"],
 
     ],
     expLogoBar = new LogoBar(idsz, classesz, textz, datesz, skillsz, "exp", [], []),
     ids = ["#snslogo", "#overdrivelogo"],
     classes = ["sns", "overdrive"],
-    text = [" Our team designed and fabricated a system containting critical measurement and processing components required to facilitate data transmission to a wireless router over WiFi. Published findings in IEEE journal article"],
+    text = [" Our team designed and fabricated a system containing critical measurement and processing components that are required to facilitate data transmission to a wireless router over WiFi. Published findings in IEEE Internet of Things Journal"],
     dates = ["Senior Capstone: 2019", "April 2016"],
     skills = [
         ["Hardware Architecture&nbsp;&nbsp;&nbsp;&nbsp;Schematic Capture", "PCB Design&nbsp;&nbsp;&nbsp;&nbsp;Hardware Validation"],
