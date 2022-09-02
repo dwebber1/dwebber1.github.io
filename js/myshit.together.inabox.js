@@ -15,7 +15,7 @@ function LogoBar(e, t, s, n, i, o, a, r) {
 function IntrController(e, t) {
     this.interests = e, this.hasVid = t, this.state = 0
 }
-console.log("loading images"), preloadImages([ "images/briefme_titleimg.png", "images/microsoft_titleimg.png", "images/antengo_titleimg.png", "images/cook.jpg", "images/door.jpg", "images/eat.jpg", "images/geisel.jpg", "images/glass.jpg", "images/games.jpg", "images/overdrive.jpg", "images/pops.jpg", "images/rockies.jpg", "images/SD.jpg", "images/sdhacks.jpg","images/apple_park.jpg", "images/stanford.jpg", "images/tentfeet.jpg", "images/usc.jpg", "images/vb.jpg", "images/snow.jpg", "images/hike.jpg", "images/devpostlogo.png"]), console.log("done loading images"), LogoBar.prototype.logoClick = function(e) {
+console.log("loading images"), preloadImages([ "images/briefme_titleimg.png", "images/microsoft_titleimg.png", "images/antengo_titleimg.png", "images/cook.jpg", "images/door.jpg", "images/eat.jpg", "images/geisel.jpg", "images/glass.jpg", "images/games.jpg", "images/overdrive.jpg", "images/pops.jpg", "images/rockies.jpg", "images/SD.jpg", "images/sdhacks.jpg","images/apple_park.jpg", "images/stanford.jpg", "images/tentfeet.jpg", "images/usc.jpg", "images/vb.jpg", "images/snow.jpg", "images/hike.jpg", "images/devpostlogo.png","images/apple2_park.jpg","images/apple3_park.jpg"]), console.log("done loading images"), LogoBar.prototype.logoClick = function(e) {
     if (this.state != e) {
         TweenMax.to(this.ids[e], .5, {
             width: "90px",
@@ -106,30 +106,30 @@ new ScrollMagic.Scene({
     duration: 50,
     offset: 757
 }).setTween(c_shrink).addTo(controller);
-var idsz = ["#aplogo","#bmlogo", "#mslogo", "#antlogo"],
-    classesz = ["apple","briefme", "microsoft", "antengo"],
-    textz = ['Spent 9 months working as a Hardware Engineering Intern','Conducted research relating to the design of a software defined radio based reciver attached to a quadcopter to track animals tagged with radio collars. Published my work with my PI\'s to an IEEE confrence on communication.', "Worked in the chemistry lab working on the analytical equipment. Built up a prep HPLC and designed a workflow for efficient solvent use", "Worked on building a course about Arduino, I focused on GPS related topics and data streams."],
-    datesz = ["January 2017 - September 2017", "June 2016 - August 2016", "November 2013 - September 2015", "June 2015 - Sepetember 2015"],
+var idsz = ["#aplogo","#aplogo2","#aplogo3"],
+    classesz = ["apple","apple2","apple3"],
+    textz = ['Currently working as System Hardware Engineer for Home HW','Intern on the Apple TV System HW team. Design and archtiecture contributions to the second generation Apple TV 4k', 'Intern on the Apple TV System HW team. Designed hardware for a mass production factory test station. Contributions to the first generation Apple TV 4k'],
+    datesz = ["September 2019 - Today", "April 2018 - September 2018", "January 2017 - September 2017"],
     skillsz = [
-         ["Hardware Architecture&nbsp;&nbsp;System Validation&nbsp;&nbsp;","PCB Bring Up&nbsp;&nbsp;schematic Capture", "Microcontroller Firmware&nbsp;Design for Manufacturing"],
-        ["GNU Radio&nbsp;&nbsp;&nbsp;&nbsp;Antenna Design&nbsp;&nbsp;&nbsp;&nbsp;SDR", " RF System Design"],
-        ["HPLC&nbsp;&nbsp;&nbsp;&nbsp;LCMS&nbsp;&nbsp;&nbsp;&nbsp;PHP",""],
-        ["C&nbsp;&nbsp;&nbsp;&nbsp;Python", "&nbsp;&nbsp;&nbsp;&nbsp;Soldering "]
+         ["Hardware Architecture&nbsp;&nbsp;System Integration&nbsp;&nbsp;","Signal Integrity&nbsp;&nbsp;Schematic Capture"],
+         ["Hardware Architecture&nbsp;&nbsp;System Integration&nbsp;&nbsp;","Signal Integrity Simualtion &nbsp;&nbsp;Schematic Capture"],
+         ["Hardware Architecture&nbsp;&nbsp;System Integration&nbsp;&nbsp;","Interoperability testing&nbsp;&nbsp;Factory Test Definition"],
+
     ],
     expLogoBar = new LogoBar(idsz, classesz, textz, datesz, skillsz, "exp", [], []),
     ids = ["#snslogo", "#overdrivelogo"],
     classes = ["sns", "overdrive"],
-    text = ["Designed a system consisting of metering pumps which dispenses specific amounts of liquids to create a mixed drink. To control the system an user connects to the webapp.","This project was created for our intro to engineering class. We were asked to make a robot that would complete a task powered by an arduino for under $35.We designed a robot that would pick up a soda can, then take it to a location and drop it, essentially recycling it."],
-    dates = ["June 2015", "April 2016"],
+    text = [" Our team designed and fabricated a system containting critical measurement and processing components required to facilitate data transmission to a wireless router over WiFi. Published findings in IEEE journal article"],
+    dates = ["Senior Capstone: 2019", "April 2016"],
     skills = [
-        ["PCB Design &nbsp;&nbsp;&nbsp;&nbsp;Laser Cutting", "MEAN Stack&nbsp;&nbsp;&nbsp;&nbsp;Raspberry Pi"],
+        ["Hardware Architecture&nbsp;&nbsp;&nbsp;&nbsp;Schematic Capture", "PCB Design&nbsp;&nbsp;&nbsp;&nbsp;Hardware Validation"],
         ["Solidworks&nbsp;&nbsp;&nbsp;&nbsp;Rapid Prototpying", "Arduino&nbsp;&nbsp;&nbsp;&nbsp;Laser Cutting"],
         
     ],
-    titles = ["eMIXER", "Recycle Bot"],
+    titles = ["WASP", "Recycle Bot"],
     awards = ["", "", "", "", ""],
     projLogoBar = new LogoBar(ids, classes, text, dates, skills, "proj", titles, awards),
-    interests = ["snow", "hike", "volley", "games", "cook", "eat"],
+    interests = ["snow", "hike", "games", "cook", "eat"],
     hasVid = [],
     intrCont = new IntrController(interests, hasVid);
 IntrController.prototype.intrClick = function(e) {

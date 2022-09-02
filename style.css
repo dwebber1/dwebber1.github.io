@@ -114,31 +114,31 @@ div[title="school"] {
       rgba(40, 40, 40, .70),
       rgba(40, 40, 40, .70)
     ),
+    url(images/apple1_park.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.apple2[title="exp"] {
+    /* tint */
+    background: linear-gradient(
+      rgba(40, 40, 40, .70),
+      rgba(40, 40, 40, .70)
+    ),
     url(images/apple_park.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.microsoft[title="exp"] {
+
+
+.apple3[title="exp"] {
     /* tint */
     background: linear-gradient(
       rgba(40, 40, 40, .70),
       rgba(40, 40, 40, .70)
     ),
-    url(images/glass.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
-.antengo[title="exp"] {
-    /* tint */
-    background: linear-gradient(
-      rgba(40, 40, 40, .70),
-      rgba(40, 40, 40, .70)
-    ),
-    url(images/SD.jpg);
+    url(images/apple_park.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;

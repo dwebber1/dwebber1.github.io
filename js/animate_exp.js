@@ -1,5 +1,5 @@
-var idsz = ["#aplogo","#bmlogo", "#mslogo", "#antlogo"];
-var classesz = ["apple","briefme", "microsoft", "antengo"];
+var idsz = ["#aplogo","#aplogo2","#aplogo3"];
+var classesz = ["apple","apple2", "apple3"];
 var textz = ['Worked at apple','Conducted research relating to the design of a software defined radio based reciver attached to a quadcopter to track animals tagged with radio collars',
             'Worked on the OneDrive team as a full-stack web developer. Did API work in the backend as well as UI and JavaScript work in the frontend for a new feature.',
             'Worked on a cross-platform mobile application for real-time classifieds. Developed for Windows Phone, Tested and Fixed bugs on Android'];

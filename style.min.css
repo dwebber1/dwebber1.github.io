@@ -76,20 +76,14 @@ div[title=school] {
     background-repeat: no-repeat;
     background-size: cover
 }
-.microsoft[title=exp] {
-    background: linear-gradient(rgba(40, 40, 40, .7), rgba(40, 40, 40, .7)), url(images/glass.jpg);
+.apple2[title=exp] {
+    background: linear-gradient(rgba(40, 40, 40, .7), rgba(40, 40, 40, .7)), url(images/apple2_park.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover
 }
-.briefme[title=exp] {
-    background: linear-gradient(rgba(40, 40, 40, .7), rgba(40, 40, 40, .7)), url(images/pops.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover
-}
-.microsoft[title=exp] {
-    background: linear-gradient(rgba(40, 40, 40, .7), rgba(40, 40, 40, .7)), url(images/glass.jpg);
+.apple3[title=exp] {
+    background: linear-gradient(rgba(40, 40, 40, .7), rgba(40, 40, 40, .7)), url(images/apple3_park.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover
