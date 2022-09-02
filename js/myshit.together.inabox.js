@@ -119,7 +119,7 @@ var idsz = ["#aplogo","#aplogo2","#aplogo3"],
     expLogoBar = new LogoBar(idsz, classesz, textz, datesz, skillsz, "exp", [], []),
     ids = ["#snslogo", "#overdrivelogo"],
     classes = ["sns", "overdrive"],
-    text = [" Our team designed and fabricated a system containing critical measurement and processing components that are required to facilitate data transmission to a wireless router over WiFi. Published findings in IEEE Internet of Things Journal"],
+    text = [" Our team designed and fabricated a system containing critical measurement and processing components that are required to facilitate data transmission to a wireless router over WiFi. Findings published in IEEE Internet of Things Journal"],
     dates = ["Senior Capstone: 2019", "April 2016"],
     skills = [
         ["Hardware Architecture&nbsp;&nbsp;&nbsp;&nbsp;Schematic Capture", "PCB Design&nbsp;&nbsp;&nbsp;&nbsp;Hardware Validation"],
